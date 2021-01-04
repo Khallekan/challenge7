@@ -130,9 +130,11 @@ button.submit {
     border-radius: 50px;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     z-index: 1;
+    box-shadow: 5px 10px 15px rgb(196, 196, 196);
 }
 button.submit:focus {
     background: hsl(0, 80%, 86%);
+    box-shadow: 6px 13px 20px gray;
 }
 input {
     position: relative;
