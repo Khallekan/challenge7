@@ -68,6 +68,9 @@ div.info {
     grid-row: 2/3;
     grid-column: 1/2;
     padding-left: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 p.info-text {
     display: flex;
